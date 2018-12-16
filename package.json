@@ -1,0 +1,32 @@
+{
+    "name": "jss",
+    "version": "1.0.0",
+    "description": "CSS variable customization from js",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack --config config/webpack.prod.config.babel.js",
+        "start": "webpack-dev-server --config config/webpack.dev.config.babel.js"
+    },
+    "repository": "https://github.com/toggle-corp/jss",
+    "author": "frozenhelium <fren.ankit@gmail.com>",
+    "license": "GNU General Public License v3.0",
+    "private": false,
+    "devDependencies": {
+        "@babel/core": "^7.2.0",
+        "@babel/plugin-proposal-class-properties": "^7.2.1",
+        "@babel/plugin-proposal-decorators": "^7.2.0",
+        "@babel/plugin-proposal-object-rest-spread": "^7.2.0",
+        "@babel/preset-env": "^7.2.0",
+        "@babel/register": "^7.0.0",
+        "babel-loader": "^8.0.4",
+        "html-webpack-plugin": "^3.2.0",
+        "webpack": "^4.27.1",
+        "webpack-cli": "^3.1.2",
+        "webpack-dev-server": "^3.1.10"
+    },
+    "dependencies": {
+        "@babel/plugin-transform-runtime": "^7.2.0",
+        "@babel/polyfill": "^7.0.0",
+        "@babel/runtime": "^7.2.0"
+    }
+}
